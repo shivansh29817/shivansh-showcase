@@ -142,7 +142,7 @@
   }
 
   .project-card {
-    @apply group relative overflow-hidden rounded-xl;
+    @apply relative overflow-hidden rounded-xl;
     background: var(--gradient-card);
     box-shadow: var(--shadow-card);
     transition: var(--transition-smooth);

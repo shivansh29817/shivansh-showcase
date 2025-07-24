@@ -109,7 +109,7 @@ const ProjectsSection = () => {
 
         <div ref={projectsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <Card key={index} className="project-card border-0">
+            <Card key={index} className="project-card group border-0">
               <CardContent className="p-6 h-full flex flex-col">
                 <div className="text-4xl mb-4 text-center">{project.image}</div>
                 
